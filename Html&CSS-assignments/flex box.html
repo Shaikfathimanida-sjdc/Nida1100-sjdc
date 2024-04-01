@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #d23ae674;
+  color: rgba(31, 28, 107, 0.578);
+}
+.navbar {
+  display: flex;
+  background-color: palevioletred;
+  color: antiquewhite;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #09a4e1cb;
+  color: rgba(145, 4, 131, 0.571);
+}
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+img {
+  background-color:mediumpurple;
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:skyblue;
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background-color: aquamarine;padding:5px">
+  <h4 style="text-align:center">Try to resize the page to see the reponsive</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>My Website</h1>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="form.html">Form</a>
+  <a href="Index.html">Home</a>
+  <a href="tables.html">Tables</a>
+  </div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    
+    <img src="https://media.istockphoto.com/id/868748682/photo/young-muslim-student.jpg?s=612x612&w=0&k=20&c=LdK3BqN9OxK-_Nx_0eGPduFqEv5rM0k_o1dyHuZeyE8=">
+    <p>Hello! my self Afsha Navsheen</p>
+    </div>
+  <div class="main">
+    <h2>PROJECT TITLE</h2>
+    <h5>ONLINE BLOOD BANK</h5>
+    <img src="https://media.istockphoto.com/id/1214884154/photo/doctor-hands-protracted-a-red-blood-for-anti-covid-19.jpg?s=612x612&w=0&k=20&c=O1DrQb5iIkmVP7yDV8wYNZHIUJNZGKrH_WLu3rwz7b0=" style="background-color: darksalmon;">
+    <p>About..</p>
+    <p>The software system is an online blood bank management system that helps in managing various blood bank operations effectively <br>
+    <h2>DONATE BLOOD</h2>
+    <h5> Blood is meant for circulation. Donate Blood.</h5>
+    <img src="https://media.istockphoto.com/id/1266746889/photo/blood-donation-at-hospital.jpg?s=612x612&w=0&k=20&c=VWGCQx330KDLHsAZDtXwHBPax5d9liOsaCiTkhsJOFs=" style="background-color:plum">
+    <p>BLOOD...</p>
+    <p>Regular blood donation is linked to lower blood pressure and a lower risk for heart attacks. “It definitely helps to reduce cardiovascular risk factors,” says DeSimone.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2><b>GIVE BLOOD AND SAVE LIFE</b></h2>
+</div>
+
+</body>
+</html>

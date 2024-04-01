@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box model</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto ;
+      gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+
+    .grid-container>div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+
+    #styling {
+
+      width: 320px;
+      height: 65px;
+      padding: 10px;
+      border: 5px solid rgba(15, 162, 108, 0.608);
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>GRID BASICS</h1>
+
+  <p>You can use the <em>grid-template-columns</em> property to specify the number of columns in your grid layout.</p>
+
+  <div class="grid-container">
+    <DIV>S.</DIV>
+    <div>A</div>
+    <div>F</div>
+    <div>S</div>
+    <div>H</div>
+    <DIV>A</DIV>
+   </div>
+  <h2>Box model</h2>
+
+  <img
+    src="https://images.unsplash.com/photo-1711181138064-43c2e2239a45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NHx8fGVufDB8fHx8fA%3D%3D"
+    width="350" height="263" alt="Klematis">
+  <div id="styling"> The CSS box model is a container that contains multiple properties including borders, margin,
+    padding, and the content itself. It is used to create the design and layout of web pages.</div>
+</body>
+
+</html>

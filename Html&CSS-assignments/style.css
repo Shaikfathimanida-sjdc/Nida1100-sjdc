@@ -1,0 +1,59 @@
+.para{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 10px;
+    font-weight: 700;
+}
+#color{
+    color:rgb(195, 195, 86);
+    background-color: rgb(17, 17, 53);
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid brown;
+    text-decoration: solid;
+}
+.heading{
+    font-style: rgb(14, 13, 13);
+    font-size:xx-large;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1528460033278-a6ba57020470?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+div, p{
+    color: rgb(85, 42, 51);
+}
+div.fixed {
+    position: fixed;
+    bottom: 0;
+     right: 0;
+    width: 300px;
+   border: 3px solid peru;
+   background-color: aquamarine;
+   color:pink;
+}
+
+div.relative {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    padding: 15px;
+    border: 3px solid #d6d312;
+}
+
+div.absolute {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 200px;
+    height: 500px;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #7300007d;
+    border: 2px solid #080a08;
+}
+
